@@ -1,7 +1,9 @@
-### Node Rest
+# Node Rest
 
-Nota:
+Nota: 
 Para utilizar este restserver usando Express, es necesario reconstruir los módulos de node
  ``` npm install ```
 
-Inicia el servidor ``` node server/server.js
+
+### Iniciar servidor
+```node server/server.js```
