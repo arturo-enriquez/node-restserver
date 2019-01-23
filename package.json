@@ -2,6 +2,9 @@
   "name": "07-restserver",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "11.2.0",
+  },
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,7 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.3",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.4.4",
+    "mongoose-unique-validator": "^2.0.2",
+    "underscore": "^1.9.1"
   }
 }
